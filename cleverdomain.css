@@ -1,0 +1,56 @@
+#container {
+	margin-top: 200px;
+	width: 500px;
+}
+
+#input-field {
+	width: 100%;
+	font-size: 26px;
+	padding: 4px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.suggestion-title {
+	line-height: 40px;
+	font-size: 20px;
+	color: #757575;
+	padding: 4px;
+}
+
+.suggestion-result {
+	width: 100%;
+	font-size: 26px;
+	padding: 4px;
+	height: 40px;
+	display: block;
+}
+
+	.suggestion-label {
+		float: left;
+		line-height: 40px;
+	}
+
+	.suggestion-availability {
+		float: right;
+		font-variant: small-caps;
+		font-style: italic;
+		font-size: 18px;
+		line-height: 40px;
+	}
+
+	.suggestion-result > .suggestion-availability {
+		color: #76FF03;
+	}
+
+	.unavailable-suggestion {
+		pointer-events: none;
+		cursor: default;
+		opacity: .5;
+	}
+	
+	.unavailable-suggestion > .suggestion-availability {
+		color: #FF1744;
+		font-style: italic;
+	}
